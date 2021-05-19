@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developer 💻', url="https://t.me/DeVAJe"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developer 💻', url="https://t.me/DeVAJe"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developer 💻', url="https://t.me/DeVAJe"
                                 )
                         ]
                     ]
@@ -89,11 +89,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
-    ],[
+        InlineKeyboardButton('Developer 💻', url='https://t.me/DeVAJe'),
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
